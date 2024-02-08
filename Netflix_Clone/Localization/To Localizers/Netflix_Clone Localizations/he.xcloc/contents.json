@@ -1,0 +1,12 @@
+{
+  "developmentRegion" : "en",
+  "project" : "Netflix_Clone.xcodeproj",
+  "targetLocale" : "he",
+  "toolInfo" : {
+    "toolBuildNumber" : "15A507",
+    "toolID" : "com.apple.dt.xcode",
+    "toolName" : "Xcode",
+    "toolVersion" : "15.0.1"
+  },
+  "version" : "1.0"
+}
