@@ -16,9 +16,6 @@
 		DA211E8B2B08BA46001672BC /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA211E8A2B08BA46001672BC /* UpcomingTableViewCell.swift */; };
 		DA211E8D2B08C41E001672BC /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA211E8C2B08C41E001672BC /* TitleViewModel.swift */; };
 		DA3735E02B0BCE7C00466155 /* YoutubeRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3735DF2B0BCE7C00466155 /* YoutubeRequestResponse.swift */; };
-		DAA059A92B1CEF6400F0715F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA059AB2B1CEF6400F0715F /* Localizable.strings */; };
-		DAA059AC2B1CEF6F00F0715F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA059AB2B1CEF6400F0715F /* Localizable.strings */; };
-		DAA059AD2B1CEF7000F0715F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA059AB2B1CEF6400F0715F /* Localizable.strings */; };
 		DAACCFA52B164D4500674EFF /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACCFA42B164D4500674EFF /* DataPersistenceManager.swift */; };
 		DAC553E12B0208CA000AA400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC553E02B0208CA000AA400 /* AppDelegate.swift */; };
 		DAC553E32B0208CA000AA400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC553E22B0208CA000AA400 /* SceneDelegate.swift */; };
@@ -33,6 +30,7 @@
 		DAC554162B020F24000AA400 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC554152B020F24000AA400 /* SearchViewController.swift */; };
 		DAC554182B020F32000AA400 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC554172B020F32000AA400 /* DownloadViewController.swift */; };
 		DAC5541D2B02571C000AA400 /* HomeViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5541C2B02571C000AA400 /* HomeViewTableViewCell.swift */; };
+		DAC680922B7D3D1300B03FFF /* NetflixLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC680912B7D3D1300B03FFF /* NetflixLaunchScreen.storyboard */; };
 		DAE17A232B03DB3B000FDF5F /* UIHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE17A222B03DB3B000FDF5F /* UIHeaderView.swift */; };
 		DAFC496A2B0684C500B3AA17 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFC49692B0684C500B3AA17 /* Extensions.swift */; };
 		DAFC496E2B068FDB00B3AA17 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFC496D2B068FDB00B3AA17 /* TitleCollectionViewCell.swift */; };
@@ -69,7 +67,6 @@
 		DA3735DF2B0BCE7C00466155 /* YoutubeRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeRequestResponse.swift; sourceTree = "<group>"; };
 		DAA059A52B1CED3300F0715F /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DAA059A82B1CEF5200F0715F /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		DAA059AA2B1CEF6400F0715F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DAACCFA42B164D4500674EFF /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 		DAC553DD2B0208CA000AA400 /* Netflix_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC553E02B0208CA000AA400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +85,7 @@
 		DAC554152B020F24000AA400 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DAC554172B020F32000AA400 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		DAC5541C2B02571C000AA400 /* HomeViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTableViewCell.swift; sourceTree = "<group>"; };
+		DAC680912B7D3D1300B03FFF /* NetflixLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NetflixLaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAE17A222B03DB3B000FDF5F /* UIHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHeaderView.swift; sourceTree = "<group>"; };
 		DAFC49692B0684C500B3AA17 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DAFC496D2B068FDB00B3AA17 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -161,7 +159,7 @@
 		DAC553D42B0208CA000AA400 = {
 			isa = PBXGroup;
 			children = (
-				DAA059AB2B1CEF6400F0715F /* Localizable.strings */,
+				DAC680912B7D3D1300B03FFF /* NetflixLaunchScreen.storyboard */,
 				DAC553DF2B0208CA000AA400 /* Netflix_Clone */,
 				DAC553F62B0208CB000AA400 /* Netflix_CloneTests */,
 				DAC554002B0208CB000AA400 /* Netflix_CloneUITests */,
@@ -366,8 +364,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC680922B7D3D1300B03FFF /* NetflixLaunchScreen.storyboard in Resources */,
 				DAC553ED2B0208CB000AA400 /* LaunchScreen.storyboard in Resources */,
-				DAA059A92B1CEF6400F0715F /* Localizable.strings in Resources */,
 				DAC553EA2B0208CB000AA400 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,7 +374,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA059AC2B1CEF6F00F0715F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +381,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA059AD2B1CEF7000F0715F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,14 +448,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DAA059AB2B1CEF6400F0715F /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAA059AA2B1CEF6400F0715F /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		DAC553EB2B0208CB000AA400 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -604,7 +592,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netflix_Clone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = NetflixLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -630,7 +618,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netflix_Clone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = NetflixLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
