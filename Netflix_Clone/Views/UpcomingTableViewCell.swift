@@ -39,29 +39,23 @@ class UpcomingTableViewCell: UITableViewCell {
     }
 
     private func addConstraint() {
-        // Poster Image constraints
-        let posterImageConstraints = [
-            posterImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            posterImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant:10),
-            posterImageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10),
+        NSLayoutConstraint.activate {
+            // Poster Image constraints
+            posterImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor)
+            posterImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant:10)
+            posterImageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10)
             posterImageView.trailingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 140)
-        ]
-        NSLayoutConstraint.activate(posterImageConstraints)
-
-        // Movie Name Label constraints
-        let movieNameLabelConstraints = [
-            movieNameLabel.leadingAnchor.constraint(equalTo: posterImageView.trailingAnchor, constant: 20),
+            
+            // Movie Name Label constraints
+            movieNameLabel.leadingAnchor.constraint(equalTo: posterImageView.trailingAnchor, constant: 20)
             movieNameLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor, constant: -10)
-        ]
-        NSLayoutConstraint.activate(movieNameLabelConstraints)
-
-        // Play button constraints
-        let playButtonConstraints = [
-            playButton.leadingAnchor.constraint(equalTo: movieNameLabel.trailingAnchor, constant: 10),
-            playButton.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
+            
+            // Play button constraints
+            playButton.leadingAnchor.constraint(equalTo: movieNameLabel.trailingAnchor, constant: 10)
+            playButton.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10)
             playButton.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
-        ]
-        NSLayoutConstraint.activate(playButtonConstraints)
+            
+        }
     }
 
     required init?(coder: NSCoder) {

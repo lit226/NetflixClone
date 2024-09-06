@@ -34,28 +34,23 @@ class UIHeaderView: UIView {
         setGradient()
         
         addSubview(playButton)
-        addPlayButtonConstraint()
         
         addSubview(downloadButton)
-        addDownloadButtonConstraints()
+        
+        activateConstraints()
     }
     
-    private func addDownloadButtonConstraints() {
-        let downloadButtonConstraints = [
-            downloadButton.leadingAnchor.constraint(equalTo: trailingAnchor, constant: -200),
-            downloadButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -25),
+    private func activateConstraints() {
+        NSLayoutConstraint.activate {
+            downloadButton.leadingAnchor.constraint(equalTo: trailingAnchor, constant: -200)
+            downloadButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -25)
             downloadButton.widthAnchor.constraint(equalToConstant: 100)
-        ]
-        NSLayoutConstraint.activate(downloadButtonConstraints)
-    }
-    
-    private func addPlayButtonConstraint() {
-        let playButtonConstraint = [
-            playButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 100),
-            playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -25),
+            
+            playButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 100)
+            playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -25)
             playButton.widthAnchor.constraint(equalToConstant: 100)
-        ]
-        NSLayoutConstraint.activate(playButtonConstraint)
+            
+        }
     }
     
     private func setGradient() {

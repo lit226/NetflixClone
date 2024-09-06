@@ -52,35 +52,24 @@ class TitlePreviewViewController: UIViewController {
     }
     
     func configureConstraints() {
-        let webviewConstraints = [
-            webView.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
-            webView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            webView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+        NSLayoutConstraint.activate {
+            webView.topAnchor.constraint(equalTo: view.topAnchor, constant: 50)
+            webView.leadingAnchor.constraint(equalTo: view.leadingAnchor)
+            webView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
             webView.heightAnchor.constraint(equalToConstant: 300)
-        ]
-        
-        let titleConstraints = [
-            titleLabel.topAnchor.constraint(equalTo: webView.bottomAnchor, constant: 20),
+            
+            titleLabel.topAnchor.constraint(equalTo: webView.bottomAnchor, constant: 20)
             titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20)
-        ]
-        
-        let previewTitleConstraints = [
-            previewTitle.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            previewTitle.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 20),
+            
+            previewTitle.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20)
+            previewTitle.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 20)
             previewTitle.trailingAnchor.constraint(equalTo: view.trailingAnchor)
-        ]
-        
-        let downloadButtonConstraints = [
-            downloadButton.topAnchor.constraint(equalTo: previewTitle.bottomAnchor, constant: 20),
-            downloadButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            downloadButton.heightAnchor.constraint(equalToConstant: 40),
+            
+            downloadButton.topAnchor.constraint(equalTo: previewTitle.bottomAnchor, constant: 20)
+            downloadButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            downloadButton.heightAnchor.constraint(equalToConstant: 40)
             downloadButton.widthAnchor.constraint(equalToConstant: 140)
-        ]
-        
-        NSLayoutConstraint.activate(webviewConstraints)
-        NSLayoutConstraint.activate(titleConstraints)
-        NSLayoutConstraint.activate(previewTitleConstraints)
-        NSLayoutConstraint.activate(downloadButtonConstraints)
+        }
     }
     
     func configure(model: TitlePrevievViewModel) {
