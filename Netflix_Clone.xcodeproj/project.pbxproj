@@ -16,6 +16,7 @@
 		DA211E8B2B08BA46001672BC /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA211E8A2B08BA46001672BC /* UpcomingTableViewCell.swift */; };
 		DA211E8D2B08C41E001672BC /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA211E8C2B08C41E001672BC /* TitleViewModel.swift */; };
 		DA3735E02B0BCE7C00466155 /* YoutubeRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3735DF2B0BCE7C00466155 /* YoutubeRequestResponse.swift */; };
+		DA5E56572C8AA7D50096D068 /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E56562C8AA7D50096D068 /* Builders.swift */; };
 		DAACCFA52B164D4500674EFF /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACCFA42B164D4500674EFF /* DataPersistenceManager.swift */; };
 		DAC553E12B0208CA000AA400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC553E02B0208CA000AA400 /* AppDelegate.swift */; };
 		DAC553E32B0208CA000AA400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC553E22B0208CA000AA400 /* SceneDelegate.swift */; };
@@ -65,6 +66,7 @@
 		DA211E8A2B08BA46001672BC /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
 		DA211E8C2B08C41E001672BC /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		DA3735DF2B0BCE7C00466155 /* YoutubeRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeRequestResponse.swift; sourceTree = "<group>"; };
+		DA5E56562C8AA7D50096D068 /* Builders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builders.swift; sourceTree = "<group>"; };
 		DAA059A52B1CED3300F0715F /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DAA059A82B1CEF5200F0715F /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DAACCFA42B164D4500674EFF /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				DAFC49692B0684C500B3AA17 /* Extensions.swift */,
+				DA5E56562C8AA7D50096D068 /* Builders.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA07733E2B150D420099F3A1 /* NetflixCloneModel.xcdatamodeld in Sources */,
+				DA5E56572C8AA7D50096D068 /* Builders.swift in Sources */,
 				DAC554162B020F24000AA400 /* SearchViewController.swift in Sources */,
 				DA0772FC2B13A8210099F3A1 /* TitlePrevievViewModel.swift in Sources */,
 				DAACCFA52B164D4500674EFF /* DataPersistenceManager.swift in Sources */,
